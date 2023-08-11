@@ -1,0 +1,52 @@
+<div class="w-screen h-screen bg-white sm:bg-gray-50 relative">
+    <div class="absolute hidden w-full h-full sm:block ">
+        <img class="absolute w-96 left-0 bottom-0" src="/assets/svg/login-bg-left.svg" alt="bg left">
+        <img class="absolute w-96 right-0 bottom-0" src="/assets/svg/login-bg-rigth.svg" alt="bg rigth">
+    </div>
+
+    <div class="relative s w-full m-auto sm:w-7/12 md:w-6/12 lg:w-4/12">
+        <header class="pt-6 pb-2 flex justify-center">
+            <img class="w-56" src="/assets/images/logo/logo-gradient-blue-trello.png" alt="">
+        </header>
+        <div class="bg-white rounded shadow-none sm:shadow-lg py-4 px-6 ">
+            <div class="mb-4">
+                <h1 class="text-center  font-semibold pt-4 pb-8">Log In to Trello</h1>
+                <form novalidate class="space-y-4">
+                    <div class="relative">
+                        <input type="email" name="email" class="w-full rounded bg-gray-100 border-gray-300"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="relative">
+                        <input type="password" name="password" class="w-full rounded bg-gray-100 border-gray-300"
+                            placeholder="Enter email">
+                    </div>
+                    <div>
+                        <button class="w-full rounded text-white font-medium text-sm bg-green-700 px-5 py-2"
+                            type="submit">Log In</button>
+                    </div>
+                </form>
+            </div>
+            <hr class="my-4 border-b-1 border-r-gray-300 hidden sm:block"/>
+            <div
+              class="flex justify-center items-center space-x-0 space-y-2 md:space-x-2 md:space-y-0 flex-col md:flex-row"
+            >
+              <a routerLink="#" class="text-blue-600 font-light hover:underline"
+                >Can't log in?</a
+              >
+              <span class="text-gray-500 hidden md:block">•</span>
+              <a routerLink="#" class="text-blue-600 font-light hover:underline"
+                >Sign up for an account</a
+              >
+            </div>
+          </div>
+          <hr class="mt-10 border-b-1 border-r-gray-300 hidden sm:block"/>
+          <div class="hidden justify-center sm:flex">
+            <img
+              loading="lazy"
+              class="w-32 mt-4"
+              src="/assets/images/logo/horizontal-logo-onecolor-blue-atlassian.png"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </div>
